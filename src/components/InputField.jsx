@@ -12,7 +12,7 @@ const InputField = ({ label, value, onChange }) => {
       <div className="relative">
         <input
           type={showPin ? "text" : "password"} // Toggle between text and password
-          className="w-full p-3 rounded-2xl bg-[#2563EB] text-white text-center text-xl tracking-widest shadow-lg placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="w-full p-3 rounded-2xl bg-[#125398] text-white text-center text-xl tracking-widest shadow-lg placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
           value={value}
           onChange={onChange}
           required
